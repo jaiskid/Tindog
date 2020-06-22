@@ -1,15 +1,60 @@
 body{
     font-family: 'Anton', sans-serif;
-    background-color: #E4F9F5;
     
+    position: relative;
+    
+}
+.back{
+    background-color:#E4F9F5;
 }
 .container-fluid{
     padding: 3% 15%;
 }
 h1{
-    font
+    font-size: 3.5rem;
+    line-height:1.5;
 }
-
+.navbar{
+    padding:0 0 4.5rem;
+}
 #iphone{
-    width:150px;
+    width:60%;
+    transform:rotate(30deg);
+}
+.nav-item{
+    padding:0 18px;
+}
+p{
+    color: #8f8f88
+}
+#features{
+    padding:7% 15%;
+}
+.feature-box{
+    text-align:center;
+}
+.icon{
+  padding-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color:#E4F9F5;
+    color:#8f8f88;
+}
+.test-dog{
+    width:10%;
+    border-radius:100%;
+    margin:0px 0px 20px 0px;
+}
+#press{
+    background-color:#E4F9F5;
+    text-align: center;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
 }
