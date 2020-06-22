@@ -40,11 +40,15 @@ p{
     color:#ff4c68;
 }
 #testimonials{
-    padding:7% 15%;
+    
     text-align:center;
     background-color:#E4F9F5;
     color:#8f8f88;
 }
+.carousel-item{
+    padding:7% 15%;
+}
+
 .test-dog{
     width:10%;
     border-radius:100%;
@@ -57,4 +61,14 @@ p{
 .press-logo{
     width:15%;
     margin:20px 20px 50px;
+}
+.carousel-control-prev{
+    color: #8f8f88;
+}
+.carousel-control-next{
+    color: #8f8f88;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
 }
